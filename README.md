@@ -1,4 +1,3 @@
-This is a sample of research done to learn best practice in how to write a ReadMe, and to learn Markdown Language
 
 Table of Contents
 
@@ -36,18 +35,21 @@ Headers
 
 ### Creating Lists
 
-*Numbered List*
+*Ordered List* =  use a number 1. or 1). Use \. for no number
 1. list item 
 2. list item 
-3. list item 
+3. list item
 
-*Bullet List*
+*Unordered List* =  use a * + -
 - list item 
 - list item 
 - list item 
 
-*Bullet List with Nested and Sub-nested bullet*
-
+*List with Nested and Sub-nested bullet*
++ list item 
+    1. list item 
+    2. list item
+        + list item
 
 
 *Other List ttributes*
@@ -74,16 +76,16 @@ There are different ways to create links.
 
 ### Images
 
-Adding an image: (http://via.placeholder.com/50)
-
-Image with an alt and title 
-![alt text](http://via.placeholder.com/50 "Image Title")
+- [alt](http://via.placeholder.com/50)
+- ![alt text](http://via.placeholder.com/50 "Image Title")
+- ![alt][id]    (In reference [id]:placeholder 'Placeholder')
 
 
 ### Code and Syntax Highlighting
  
- - Inline code has back-ticks around it (alt numberpad 9 and 6 together `) =  `code`
- - Create a block of code by fencing in with 3 back ticks ```
+ - Inline code has back-ticks around it (alt numberpad 9 and 6 together `) =  `code` 
+ -     or Indent 4 spaces
+ - Create a block of code by fencing in with 3 back ticks ``` (code block, code fence)```
  - Add in angle brackets to create an <b>emphasis <b>
  
  
@@ -127,7 +129,7 @@ Markdown | Less | Pretty
 >> Nested Blockquote. 
 
 
-### Adding HTML
+**Adding HTML**
 - Inline HTML
 
 <dl>
@@ -137,14 +139,16 @@ Markdown | Less | Pretty
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-### Adding Line Breaks
+**Adding Line Breaks**
 
- - Horizontal line: Add hyphens and space - - - - 
+ - Line Break Adding a backslash or 2 blank spaces at the end of the line to create a line break \\
+ - Line breaks = hit enter, 3 hyphens and enter to create a line breakHorizontal line: 
+ - Add hyphens and space - - - - 
  - Asterisks ***
  - Underscores ___
- - Line breaks = hit enter, 3 hyphens and enter to create a line break
+ 
 
-### Adding Videos
+**Adding Videos**
  - Can't be added directly but you can add an image with a link to the video like this:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
@@ -155,9 +159,15 @@ Or, in pure Markdown, but losing the image sizing and border:
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
-### Referencee:
+**Adding Emojis**
+ - Emoji codes can be found on <emoji-cheat-sheet.com> <https://www.webfx.com/tools/emoji-cheat-sheet/>
+ - Code appears between colons :EmojiCode:
+
+### References:
 
 <adam-p/markdown-here>
 <https://help.github.com/en/github/writing-on-github>
 <https://www.webfx.com/tools/emoji-cheat-sheet/>
 <https://dillinger.io/>
+https://www.makeareadme.com/
+https://commonmark.org/help/
